@@ -55,5 +55,4 @@ $Params = @{
 }
 
 Set-AzVMExtension @Params
-
 Get-AzVMExtension -ResourceGroupName $resourceGroupName -VMName $vmName -Name "CustomScript"
